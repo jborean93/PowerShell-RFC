@@ -514,7 +514,7 @@ If it actually isn't hard to support a hashtable literal without `@{}` alongside
 
 ## Option 4 - -@ Parameter
 
-This option moves away from using a special sigil to using a parameter that identifies the value to splat. The proposal is to add the parameter `-?` to any function where the value specified will be splatted by the binder.
+This option moves away from using a special sigil to using a parameter that identifies the value to splat. The proposal is to add the "parameter" `-@` to any function where the value specified will be splatted by the binder.
 
 ```powershell
 # Simple var
